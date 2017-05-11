@@ -192,6 +192,17 @@ Générateurs de gradients CSS:
 Drop shadows
 ===
 
+Qu'est-ce que le "drop shadows"?
+Il s'agit d'une ombre autour d'un élément (à ne confondre avec "box-shadows", qui ajoute un cadre transparent à l'image et ensuite ajoute l'ombre!).
+De plus, "drop-shadows" conserve la transparence de l'image et suit le contour de celle-ci.
+Par contre, le "drop-shadows" ne peut pas étendre son ombre; elle est générée automatiquement.
+
+Exemple:
+
+ <p>filter: drop-shadow</p>
+ <div><img src= "images_reseaux_sociaux.png" alt= "image diverses icones des réseaux sociaux"/></div>
+
+
 Opacity
 ===
 
